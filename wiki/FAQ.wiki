@@ -1,0 +1,19 @@
+#labels Support-General,Old
+  * ==What is ezRPG?==
+    ezRPG is a free PHP game (engine) which can be customised however you want, seeing as it's open source.
+
+
+  * ==What type of game can ezRPG be used for?==
+    ezRPG is mainly a very basic RPG, and to make it into any other type of game (strategy, pet, etc.) would require a large amount of modifications and additions to the code. I'll leave that up to you :)
+
+
+  * ==Where can I get it?==
+    You can click the Downloads tab above to get to a list of all the releases of ezRPG. If you want the latest code that is still in development, you can click the Source tab to view the subversion repository. If you know how, you can checkout the source with your subversion client.
+
+
+  * ==Where can I get help for installing/using/updating/modifying the game?==
+    There is a support forum at the following URL: http://community.bbgamezone.com/
+
+  * ==I uploaded the files and followed the instructions... but I still get errors!==
+    You might be missing ADOdb: [ConnectionProblem]
+ 

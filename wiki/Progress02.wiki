@@ -1,0 +1,28 @@
+#labels Progress-v0.2
+Feature list/progress for the second release, version 0.2
+
+|| *In-Game Features*|| *Progress*|| || *Admin Panel Features*|| *Progress*|| || *General Features*|| *Progress*||
+||News/Updates Page|| *0%*|| ||User Management|| *0%*|| ||Automatic Installation|| *0%*||
+||Stat Bars|| *0%*|| ||Basic Game Settings|| *0%*||  ||Multiple Languages|| *0%*||
+||Account Options|| *0%*|| ||Admin Log|| *0%*||
+||Improved Battle Logging|| *0%*|| ||Error Log|| *0%*||
+
+
+
+ * Striked-out items mean they are completed, _not_ removed (consider this my personal checklist :P)
+
+
+
+
+==Features for next version:==
+
+  * Clans
+  * Multiple Recipients for mail
+  * Friends list to mail them easily and to see if they are online
+  * Battle with AI (monsters)
+  * AI players (used by admin to disguise as real players, so game looks populated)
+     * Actually, they are just programmed to do actions in a separate cron file every so often (time can be changed by GM themselves, no option in admin panel. must be changed in cron scheduling).
+  * Training area to train stats/max health/max energy, maybe some other stuff as well.
+ 
+ 
+ 

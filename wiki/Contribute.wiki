@@ -1,0 +1,10 @@
+#labels Support-General
+=Want to Contribute?=
+Here are some ways you can contribute:
+  * Post comments on the wiki! If you have anything to add or change to the wiki, just leave a comment in the appropriate wiki page! Your comments can be suggestions, encouragement, your own additions to the wiki, whatever you want!
+  * Report bugs. Every time you report a bug, you are helping all other game owners and players have a more enjoyable and secure game!
+  * Join our community! Our community at http://community.bbgamezone.com can use some new members that are willing to learn or willing to help new users! There are many members with varying levels of experience in game coding!
+
+Thank you :)
+ 
+ 

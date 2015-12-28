@@ -1,0 +1,14 @@
+#labels Old,Project-Requirements
+  * Basic user registration/login system
+  * 3-stat character improvement system
+  * Bank to deposit/withdraw gold, and earn interest
+  * Battle system with advanced opponent searching/filtering
+  * Basic hospital to revive dead characters
+  * Inventory to store two types of items, unlimited amounts
+  * Items with individual descriptions, effectiveness and price
+  * Logging system so users know what happened to their character while logged out
+  * Enhanced mail system to promote the user community and communication
+  * Members list to view other players
+  * Individual member profiles
+  * Shop system to search/buy/sell items.
+ 

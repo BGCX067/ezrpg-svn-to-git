@@ -1,0 +1,46 @@
+ALTER TABLE `players` ADD `gm_rank` INT NOT NULL DEFAULT '1' AFTER `rank` ;
+ALTER TABLE `players` ADD `last_ip` VARCHAR( 255 ) NOT NULL AFTER `ip` ;
+ALTER TABLE `players` ADD `ban` INT NOT NULL ;
+
+TRUNCATE TABLE `user_log` ;
+ALTER TABLE `user_log` ADD PRIMARY KEY ( `id` ) ;
+ALTER TABLE `user_log` CHANGE `id` `id` INT( 11 ) NOT NULL AUTO_INCREMENT ;
+ALTER TABLE `user_log` ADD `full_msg` TEXT NOT NULL AFTER `msg` ;
+ALTER TABLE `user_log` ADD `time` INT NOT NULL ;
+
+CREATE TABLE `log_errors` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`msg` TEXT NOT NULL ,
+`time` INT NOT NULL
+) ENGINE = MYISAM ;
+
+CREATE TABLE `log_gm` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`msg` TEXT NOT NULL ,
+`time` INT NOT NULL
+) ENGINE = MYISAM ;
+
+CREATE TABLE `settings` (
+`name` VARCHAR( 255 ) NOT NULL ,
+`value` VARCHAR( 255 ) NOT NULL ,
+UNIQUE (
+`name`
+)
+) ENGINE = MYISAM ;
+
+INSERT INTO `settings` (`name`, `value`) VALUES 
+('bank_interest_rate', '2'),
+('bank_limit_type', 'variable'),
+('bank_limit', '200'),
+('battle_min_level', '3'),
+('battle_round_limit', '30'),
+('hospital_rate', '1'),
+('general_stat_bar', 'image'),
+('general_close_game', 'no'),
+('index_log_ip', 'no'),
+('index_log_error', 'no'),
+('general_bar_filetype', 'PNG'),
+('members_default_limit', '30'),
+('register_status', 'closed'),
+('weapons_default_limit', '10'),
+('armour_default_limit', '10');

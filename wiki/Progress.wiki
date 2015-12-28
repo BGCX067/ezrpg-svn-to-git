@@ -1,0 +1,39 @@
+#labels Old,Progress-v0.1
+Feature list/progress for *first* release (so that means even if a feature is 100% completed, it is still very basic and simple):
+
+|| *In-Game Features*|| *Progress*|| || *Admin Panel Features*|| *Progress*|| || *General Features*|| *Progress*||
+||~~Stats Page~~||100%|| ||User Management|| *0%*|| ||~~Registration~~||100%||
+||~~Mail~~||100%|| ||Basic Game Settings|| *0%*|| ||~~Login~~||100%||
+||~~User Log~~|| 100%|| ||Admin Log|| *0%*|| ||Automatic Installation|| *0%*||
+||~~Inventory~~||100%|| ||Error Log|| *0%*|| ||~~Cron File~~|| 100%||
+||~~Stats Managament~~||100%||
+||~~Battle System~~|| 100%||
+||~~Shop~~|| 100%||
+||~~Member List~~|| 100%||
+||~~User Profiles~~|| 100%||
+||~~Bank~~|| 100%||
+||~~Hospital~~|| 100%||
+
+
+
+ * Striked-out items mean they are completed, _not_ removed (consider this my personal checklist :P)
+
+
+
+
+==Features for next version:==
+
+  * Clans
+  * Multiple Recipients for mail
+  * Friends list to mail them easily and to see if they are online
+  * Battle with AI (monsters)
+  * AI players (used by admin to disguise as real players, so game looks populated)
+     * Actually, they are just programmed to do actions in a separate cron file every so often (time can be changed by GM themselves, no option in admin panel. must be changed in cron scheduling).
+  * News/Updates/Announcements feature - to allow the admin to update all players on game-related stuff
+  * Show stats (hp, energy, etc) with coloured bars (optional, can be changed in admin panel)
+  * Training area to train stats/max health/max energy, maybe some other stuff as well.
+  * Multiple languages, can also be used to modify game language to suit another game type (eg, 'strength' into 'soldiers', 'level' into 'land')
+  * Improved battle logging (complete battle results)
+  * Account options page to edit password/email and more (suggestions, anybody?)
+ 
+ 

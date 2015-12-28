@@ -1,0 +1,32 @@
+#labels Old,Support-General,Support-Installation
+The list of downloads available are here: http://code.google.com/p/ezrpg/downloads/list
+
+Now, there are different versions of ezRPG that you can download, and which one you choose is vital to the running of your game. To know which version you need, read below.
+
+
+==I have ADOdb on my server==
+If this is the case for you, then you can simply download the core script:
+
+http://ezrpg.googlecode.com/files/ezRPGv0.1.rar
+
+Remember to change the folder link to ADOdb in the `config.php` file.
+
+To find out how to do that, read this: [ConnectionProblem]
+
+
+==I don't have ADOdb==
+You have two choice. You can either download ADOdb and upload the files to your server yourself, then download the core script as said above, or you can download the complete script here:
+
+http://ezrpg.googlecode.com/files/ezRPGv0.1_ADOdb.rar
+
+If you download the complete script, you won't need to download other files or edit the line in your `config.php` file.
+
+
+==I have no idea what you're talking about!==
+Well, in that case, you should just download the complete script. It should work perfectly fine without any extra hassle.
+
+http://ezrpg.googlecode.com/files/ezRPGv0.1_ADOdb.rar
+ 
+ 
+ 
+ 

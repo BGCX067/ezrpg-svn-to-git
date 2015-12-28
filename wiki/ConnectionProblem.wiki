@@ -1,0 +1,26 @@
+#labels Support-Installation
+If you get some errors when you upload the files, and you've got all the database info inserted in the config file, then the problem is probably that you don't have ADOdb.
+
+You can tell you don't have ADOdb if you get an error (or multiple errors) that looks like one of these:
+
+{{{
+Warning: include(adodb/adodb.inc.php) [function.include]: failed to open stream: No such file or directory in C:\xampp\htdocs\rpg\config.php on line 19
+}}}
+
+{{{
+Fatal error: Call to undefined function adonewconnection() in C:\xampp\htdocs\rpg\config.php on line 20
+}}}
+
+ADOdb is a set of files that ezRPG depends on to connect to the database and perform queries.
+
+Here's the easy fix:
+  # Download ADOdb here: http://sourceforge.net/project/downloading.php?group_id=42718&use_mirror=mesh&filename=adodb495a.zip&3316646
+  # Upload the files to your web host, and into your ezRPG folder
+  # Make sure the location to the ADOdb folder is set correctly in your config file. It should work fine as it is, but if it still doesn't work, make sure that the line `include('adodb/adodb.inc.php'); //Include adodb files` is pointing to the ADOdb folder.
+
+That should do it! There's no need to edit any ADOdb files, and you might need to edit the config file if it can't find the ADOdb folder, but it's only a change of one line.
+ 
+ 
+ 
+ 
+ 
